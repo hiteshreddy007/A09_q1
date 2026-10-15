@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: placement-portal
-        image: YOUR_DOCKERHUB_USERNAME/placement-portal:v1
+        image: hiteshreddy007/placement-portal:v1
         ports:
         - containerPort: 80
         readinessProbe:
